@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+}
+
+nav{
+    background-color: rgb(24, 31, 76);
+    height: 130px;
+
+}
+
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-right: 100px;
+}
+
+img {
+    margin-left: 200px;
+    margin-top: 50px;
+    width: 140px;
+    
+}
+
+a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+
+}
+
+h1 {
+    margin-left: 200px;
+}
+
+.cursuri {
+    margin-left: 200px;
+}
+
+.cursuriContainer {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 200px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "col1 col2";
+      margin-left: 200px;
+  }
+  
+  .col1 { grid-area: col1;
+    
+
+}
+  
+  .col2 { grid-area: col2; 
+
+}
+  
+.p1 {
+    font-size: medium;
+    font-weight: 600;
+    border-bottom: 3px solid chocolate;
+}
+
+main { 
+    margin-bottom: 350px;
+}
+footer {
+    background-color: rgb(24, 31, 76);
+    height: 230px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+h3 {
+    color: white;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.locatii {
+    display: flex;
+    flex-direction: column;
+}
+
+.oras {
+    color:white;
+    margin: 0;
+    padding: 0;
+}
